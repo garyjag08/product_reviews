@@ -24,7 +24,5 @@ int main(){
     WordCount good = read_in_file("good.txt"); // object of good review class
     WordCount bad = read_in_file("bad.txt"); // object of bad review class 
 
-    good.viewWordFrequency();
-
     return 0;
 }
